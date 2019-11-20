@@ -15,7 +15,12 @@
     font-weight:$back-font-weight;
 }
 
-
+@mixin  buttons($width,$heigt,$bg,$border){
+    width: $width;
+    height: $heigt;
+    background-color: $bg;
+    border: $border;
+}
 
 
 
